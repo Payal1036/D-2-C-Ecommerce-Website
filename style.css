@@ -78,7 +78,7 @@ button{
     left:50%;
     transform:translateX(-50%);
     padding:12px 25px;
-    background:red;
+    background:white;
     border:none;
     cursor:pointer;
     font-weight:bold;
