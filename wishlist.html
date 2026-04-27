@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Your Wishlist</h1>
+
+    <div class="wishlist-box">
+        <p>Saved products will appear here.</p>
+    </div>
+
+
+    <h1>My Wishlist</h1>
+
+<div id="wishlistData"></div>
+
+<script>
+let item = localStorage.getItem("wishlistItem");
+
+document.getElementById("wishlistData").innerHTML = item;
+</script>
+
+
+
+
+</body>
+</html>
+
+
